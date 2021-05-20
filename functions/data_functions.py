@@ -241,9 +241,6 @@ def read_features(paths, allow_patients):
 
 	return X, Y	
 
-import numpy as np
-import scipy.stats
-
 
 def mean_confidence_interval(data, confidence=0.95):
 	a = 1.0 * np.array(data)
